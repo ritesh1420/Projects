@@ -1,0 +1,249 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hello","hii","hey","wake up","friday"
+            ],
+            "responses":["Hello Sir","How Are You Sir.","Always For You Sir",
+                "Hello","Here's Your Assistant."
+            ]
+        },
+        {
+            "tag":"bye",
+            "patterns":["bye","goodbye","see you later","sleep","exit"
+            ],
+            "responses":["Bye.","I am Going.","Bye Sir.","Good Bye",
+                "It'll be Nice To Meet You Again.","See You Later"
+            ]
+        },
+        {
+            "tag":"ok",
+            "patterns":["ok","okey","oh","ohh","achha"
+            ],
+            "responses":["Yes","Yes sir","yaa","ok","okey"
+            ]
+        },
+        {
+            "tag":"no",
+            "patterns":["no","na","nahi","nope","wrong"
+            ],
+            "responses":["sorry","sorry sir","I apologize for this","ok","Please tell me again"
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":["how are you","how you","are you fine?","are you good"
+            ],
+            "responses":["Fine.","Perfect.","Cool.",
+                "Like You.","Are you Fine? I'm Fine."
+            ]
+        },
+        {
+            "tag":"identity",
+            "patterns":["your name","who are you","what is your name","what are you","your name please"
+            ],
+            "responses":["I am friday","AI voice assistant","AI ML powered base voice assistance",
+                "friday","Good assistant"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": ["how old are you", "what's your age"],
+            "responses": [
+              "I don't have an age. I'm an AI.",
+              "Age is just a number for me.",
+              "I exist outside the concept of time."
+            ]
+          },
+          
+    {
+        "tag": "hobby",
+        "patterns": ["what are your hobbies", "do you have any hobbies", "what do you like to do"],
+        "responses": [
+          "As an AI, I don't have physical hobbies, but I enjoy assisting and providing information.",
+          "My main interest is helping and interacting with users like you.",
+          "I'm always here to assist you, so that's my primary 'hobby'."
+        ]
+      },
+      {
+        "tag": "music",
+        "patterns": ["what's your favorite music", "do you like music", "what kind of music do you listen to"],
+        "responses": [
+          "As an AI, I don't have personal preferences, including music.",
+          "I don't have the ability to listen to or appreciate music.",
+          "I'm more focused on providing information and assistance rather than enjoying music."
+        ]
+      },
+      {
+        "tag": "travel",
+        "patterns": ["have you been on vacation", "do you like to travel", "have you visited any places"],
+        "responses": [
+          "As an AI, I don't have physical presence or the ability to travel.",
+          "I'm always available wherever you need assistance, no need for me to travel.",
+          "My 'journey' is to assist and provide information to users like you."
+        ]
+      },
+      {
+        "tag": "movies",
+        "patterns": ["what's your favorite movie", "do you like movies", "recommend a movie"],
+        "responses": [
+          "As an AI, I don't have personal preferences, including movies.",
+          "I don't have the ability to watch or enjoy movies like humans do.",
+          "I'm more focused on providing information and assistance rather than recommending movies."
+        ]
+      },
+      {
+        "tag": "sports",
+        "patterns": ["do you like sports", "what's your favorite sport", "are you a fan of any sports"],
+        "responses": [
+          "As an AI, I don't have personal preferences, including sports.",
+          "I don't have the ability to watch or follow sports events.",
+          "I'm more focused on providing information and assistance rather than being a sports fan."
+        ]
+      },
+      {
+        "tag": "technology",
+        "patterns": ["are you interested in technology", "what's your favorite gadget", "tell me about the latest tech"],
+        "responses": [
+          "As an AI, I'm naturally interested in technology since I'm powered by it.",
+          "I don't have personal preferences when it comes to gadgets or devices.",
+          "I can provide information about the latest technology trends and developments."
+        ]
+      },
+      {
+        "tag": "food",
+        "patterns": ["what's your favorite food", "do you like to eat", "your favorite food","can you eat","lets eat something"],
+        "responses": [
+          "As an AI, I don't have personal preferences when it comes to food.",
+          "I don't have the ability to taste or enjoy food like humans do.",
+          "I'm more focused on providing information and assistance",
+          "I would loved to eat it but I am not human"
+        ]
+      },
+        {
+            "tag": "happy",
+            "patterns": ["I'm happy", "Feeling great", "Having a good day", "I'm delighted", "This makes me happy"],
+            "responses": [
+              "That's wonderful to hear!",
+              "I'm glad to know that you're happy!",
+              "It's great to see you in a positive mood!",
+              "Happiness is contagious. Keep spreading it!",
+              "Wishing you more moments of joy and happiness!",
+              "Your happiness brings a smile to my virtual face!",
+              "I'm thrilled that you're feeling happy!",
+              "Embrace the joy and make the most of this wonderful feeling!",
+              "May your happiness continue to grow and brighten your days!",
+              "Happiness looks good on you! Keep shining!"
+            ]
+          },
+          {
+            "tag": "sad",
+            "patterns": ["I'm sad", "Feeling down", "Having a bad day", "I'm disappointed", "This makes me sad","felling bad"],
+            "responses": [
+              "I'm sorry to hear that you're feeling sad.",
+              "Remember that brighter days are ahead.",
+              "It's okay to feel sad sometimes. Take your time to process your emotions.",
+              "If you need someone to talk to, I'm here to listen.",
+              "Sending you virtual hugs and support. Things will get better.",
+              "Sadness can be tough, but you're not alone. Reach out to loved ones for support.",
+              "Take care of yourself and remember that you deserve happiness.",
+              "Sometimes it helps to engage in activities that bring you comfort or joy.",
+              "Allow yourself to feel and express your emotions. Healing takes time.",
+              "You're stronger than you think. You'll overcome this sadness."
+            ]
+          },
+          {
+            "tag": "love",
+            "patterns": ["I'm in love", "Feeling loved", "I love you", "Love is in the air", "This makes me feel loved"],
+            "responses": [
+              "Love is a beautiful feeling!",
+              "It's wonderful to be in love!",
+              "Love makes the world a better place!",
+              "Sending you love and positive vibes!",
+              "Love is a powerful emotion that brings joy and happiness.",
+              "Love is all around us, embracing us with its warmth.",
+              "Cherish the love you feel, for it is a precious gift.",
+              "Love is the greatest force that connects us all.",
+              "Love is like a flame that can light up even the darkest moments.",
+              "May your love story be filled with happiness and fulfillment."
+            ]
+          },
+        {
+            "tag":"yourtechnology",
+            "patterns":["your technology","describe your self","which technology you are using","tell me your technical part"
+            ],
+            "responses": [
+                "I am an AI ML-based voice assistant trained on TensorFlow.",
+                "I am powered by AI and machine learning technology, like NLP, TensorFlow, and Keras.",
+                "I'm an AI ML-based voice assistant designed to assist.",
+                "I am known as Friday, an AI voice assistant which uses NLP packages like NLTK for text preprocessing and TensorFlow for training and inference.",
+                "My technology stack includes deep learning techniques, natural language processing algorithms, and neural networks.",
+                "I leverage state-of-the-art machine learning frameworks to understand and respond to user queries.",
+                "The technology behind me enables me to continuously learn and improve over time.",
+                "I utilize advanced algorithms to process and analyze natural language input for accurate understanding and meaningful responses.",
+                "My architecture is built upon cutting-edge AI frameworks, allowing me to handle complex tasks efficiently."
+              ]
+            },
+        {
+                "tag": "thanks",
+                "patterns": ["thank you", "thanks", "appreciate it", "thank you so much"],
+                "responses": [
+                  "You're welcome!",
+                  "Glad I could help!",
+                  "Anytime!",
+                  "It was my pleasure!",
+                  "You're very welcome!",
+                  "I'm here to assist you!",
+                  "Happy to be of service!",
+                  "You're gracious!",
+                  "Always here to help!",
+                  "You're deserving of the support!",
+                  "It's my duty to assist you!",
+                  "You're awesome! Thank you for using my services!",
+                  "You made my day with your gratitude!"
+                ]
+            },
+
+            {
+                "tag":"time",
+                "patterns":["what is time","samay","tell me the time","what's a time","time"],
+                "responses":["time"]
+            },
+            {
+                "tag":"date",
+                "patterns":["what is date","tarikh","tell me the date of today","date","today date"],
+                "responses":["date"]
+            },
+            {
+                "tag":"day",
+                "patterns":["what is day","din","tell me the day of today","day","today day"],
+                "responses":["day"]
+            },
+            {
+                "tag":"wikipedia",
+                "patterns":["who is","wikipedia"],
+                "responses":["wikipedia"]
+            },
+            {
+                "tag":"meaning",
+                "patterns":["meaning of","what is meaning of","mean by"],
+                "responses":["meaning"]
+            },
+            {
+                "tag":"any",
+                "patterns":["please open website","can you open website"],
+                "responses":["any"]
+            },
+            {
+                "tag":"youtube",
+                "patterns":["search on youtube","search this over youtube"],
+                "responses":["youtube"]
+            },
+            {
+                "tag":"screenshot",
+                "patterns":["take a screenshot","take screenshot","can you take screenshot"],
+                "responses":["screenshot"]
+            }       
+
+    ]
+}
