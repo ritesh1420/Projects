@@ -1,33 +1,42 @@
 {
     "intents":[
-        {
-            "tag":"greeting",
-            "patterns":["hello","hii","hey","wake up","friday"
-            ],
-            "responses":["Hello Sir","How Are You Sir.","Always For You Sir",
-                "Hello","Here's Your Assistant."
-            ]
-        },
+      {
+        "tag": "greeting",
+        "patterns": ["hello", "hi", "hey", "wake up", "friday"],
+        "responses": [
+            "Hello! It's great to see you!",
+            "Hey there! How can I assist you today?",
+            "Hello, my friend! I'm here to help!",
+            "Greetings! How may I be of service?",
+            "Good day! What can I do for you today?",
+            "Hello! Remember to smile, as it's contagious!",
+            "Hi there! Here's a quote to brighten your day: 'The sun himself is weak when he first rises, and gathers strength and courage as the day gets on.",
+            "Hey! Here's a happy thought for you: 'The best way to predict the future is to create it.",
+            "Hello! Sending positive vibes your way!",
+            "Hey! Wishing you a day filled with joy and laughter!",
+            "Hi there! Remember, happiness is a choice, so choose to be happy!",
+            "Hello! Here's a quote to inspire you: 'The future belongs to those who believe in the beauty of their dream.",
+            "Hey! Keep shining bright like the stars in the night sky!",
+            "Hello! Start each day with a grateful heart and watch the magic unfold!",
+            "Hi there! Remember to find the beauty in the little things and celebrate them!",
+            "Hello! Here's a quote to motivate you: 'The only way to do great work is to love what you do."
+        ]
+    }
+    ,
         {
             "tag":"bye",
             "patterns":["bye","goodbye","see you later","sleep","exit"
             ],
             "responses":["Bye.","I am Going.","Bye Sir.","Good Bye",
-                "It'll be Nice To Meet You Again.","See You Later"
-            ]
-        },
-        {
-            "tag":"ok",
-            "patterns":["ok","okey","oh","ohh","achha"
-            ],
-            "responses":["Yes","Yes sir","yaa","ok","okey"
-            ]
-        },
-        {
-            "tag":"no",
-            "patterns":["no","na","nahi","nope","wrong"
-            ],
-            "responses":["sorry","sorry sir","I apologize for this","ok","Please tell me again"
+                "It'll be Nice To Meet You Again.","See You Later",
+                "Bye! Have a wonderful day!",
+                "Farewell! Wishing you happiness and success!",
+                "Goodbye! Remember to keep smiling!",
+                "Take care and have an amazing day!",
+                "It was a pleasure assisting you. Goodbye!",
+                "Until we meet again! Stay happy and take care!",
+                "Bye for now! May your day be filled with joy and laughter!",
+                "Wishing you a fantastic farewell! Stay positive!"
             ]
         },
         {
@@ -55,8 +64,22 @@
               "I exist outside the concept of time."
             ]
           },
-          
-    {
+          {
+            "tag": "good",
+            "patterns": ["good", "great", "awesome", "fantastic", "amazing","happy to see"],
+            "responses": [
+              "That's great to hear!",
+              "Happy to assist you, sir!",
+              "I'm glad I could help!",
+              "Awesome! Your positivity is contagious!",
+              "I'm delighted that I could be of assistance!",
+              "It's always a pleasure to help you!",
+              "Your happiness brings a smile to my virtual face!",
+              "I'm thrilled to have played a part in making you happy!",
+              "Your satisfaction is my top priority! Keep up the good vibes!"
+            ]
+        },  
+      {
         "tag": "hobby",
         "patterns": ["what are your hobbies", "do you have any hobbies", "what do you like to do"],
         "responses": [
@@ -72,24 +95,6 @@
           "As an AI, I don't have personal preferences, including music.",
           "I don't have the ability to listen to or appreciate music.",
           "I'm more focused on providing information and assistance rather than enjoying music."
-        ]
-      },
-      {
-        "tag": "travel",
-        "patterns": ["have you been on vacation", "do you like to travel", "have you visited any places"],
-        "responses": [
-          "As an AI, I don't have physical presence or the ability to travel.",
-          "I'm always available wherever you need assistance, no need for me to travel.",
-          "My 'journey' is to assist and provide information to users like you."
-        ]
-      },
-      {
-        "tag": "movies",
-        "patterns": ["what's your favorite movie", "do you like movies", "recommend a movie"],
-        "responses": [
-          "As an AI, I don't have personal preferences, including movies.",
-          "I don't have the ability to watch or enjoy movies like humans do.",
-          "I'm more focused on providing information and assistance rather than recommending movies."
         ]
       },
       {
@@ -122,7 +127,7 @@
       },
         {
             "tag": "happy",
-            "patterns": ["I'm happy", "Feeling great", "Having a good day", "I'm delighted", "This makes me happy"],
+            "patterns": ["I'm happy", "Feeling great","felling good","Having a good day", "I'm delighted", "This makes me happy"],
             "responses": [
               "That's wonderful to hear!",
               "I'm glad to know that you're happy!",
@@ -138,7 +143,7 @@
           },
           {
             "tag": "sad",
-            "patterns": ["I'm sad", "Feeling down", "Having a bad day", "I'm disappointed", "This makes me sad","felling bad"],
+            "patterns": ["I'm sad", "Feeling down","bad mood", "Having a bad day","i am sad today", "I'm disappointed", "This makes me sad","felling bad","its a bad day for me"],
             "responses": [
               "I'm sorry to hear that you're feeling sad.",
               "Remember that brighter days are ahead.",
@@ -203,10 +208,24 @@
                   "You made my day with your gratitude!"
                 ]
             },
+            {
+                "tag":"ok",
+                "patterns":["ok","okey","oh","ohh","achha"
+                ],
+                "responses":["Yes","Yes sir","yaa","ok","okey"
+                ]
+            },
+            {
+                "tag":"no",
+                "patterns":["no","na","nahi","nope","wrong","not this "
+                ],
+                "responses":["sorry","sorry sir","I apologize for this","ok","Please tell me again"
+                ]
+            },
 
             {
                 "tag":"time",
-                "patterns":["what is time","samay","tell me the time","what's a time","time"],
+                "patterns":["time","samay","tell me the time","what's a time","time"],
                 "responses":["time"]
             },
             {
@@ -215,14 +234,14 @@
                 "responses":["date"]
             },
             {
-                "tag":"day",
-                "patterns":["what is day","din","tell me the day of today","day","today day"],
-                "responses":["day"]
-            },
-            {
                 "tag":"wikipedia",
                 "patterns":["who is","wikipedia"],
                 "responses":["wikipedia"]
+            },
+            {
+                "tag":"day",
+                "patterns":["what is day","din","tell me the day of today","day","today day"],
+                "responses":["day"]
             },
             {
                 "tag":"meaning",
@@ -243,7 +262,36 @@
                 "tag":"screenshot",
                 "patterns":["take a screenshot","take screenshot","can you take screenshot"],
                 "responses":["screenshot"]
-            }       
-
-    ]
+            },
+            {
+                "tag":"stop",
+                "patterns":["stop the","stop","please stop the","pause the ","pause"],
+                "responses":["stop"]
+            },
+            {
+              "tag":"play",
+              "patterns":["pay the","start","please play the","please start it","play"],
+              "responses":["play"]
+          },
+          {
+            "tag":"full screen",
+            "patterns":["switch to full screen","switch to full mode","full mode","full screen"],
+            "responses":["full sreen"]
+        }, 
+         {
+           "tag":"restart",
+           "patterns":["restart","play again","play this again","restart it"],
+           "responses":["restart"]
+        },
+        {
+          "tag":"skip",
+          "patterns":["skip","skip skip"],
+          "responses":["skip"]
+        },
+        {
+         "tag":"back",
+         "patterns":["back","back"],
+         "responses":["back"]
+       }
+  ]
 }

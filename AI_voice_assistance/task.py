@@ -14,7 +14,7 @@ def Day():
 
 def NonInputExecution(query):
     query=str(query)
-    if("time") in query:
+    if "time" in query:
         Time()
     elif "date" in query:
         Date()
@@ -89,11 +89,49 @@ def InputExecution(tag,query):
         import pyautogui
         say("Sure,tell me name of this screenshot")
         name = Listen()
-        save_path = "C://Users//Ritesh//Desktop//screenshot//name.png"  # Specify the desired save path here
+        save_path = f"C://Users//Ritesh//Desktop//screenshot//{name}.png"  # Specify the desired save path here
         screenshot = pyautogui.screenshot()
         screenshot.save(save_path)
-        say(f"Screenshot captured and saved as {os.path.basename(save_path)}")
-       
+        say(f"Screenshot captured and saved as {name}")
+    
+    elif "stop" in tag:
+         import keyboard
+         say("ok")
+         comm = Listen()
+         keyboard.press('space bar')
+         #say("i stopped it")
+    elif "play" in tag:
+         import keyboard
+         say("ok sir")
+         comm = Listen()
+         keyboard.press('space bar')
+    elif "fullscreen" in tag:
+         import keyboard
+         say("ok sir")
+         comm = Listen()
+         keyboard.press('f')
+    elif "restart" in tag:
+         import keyboard
+         say("ok sir")
+         comm = Listen()
+         keyboard.press('0')
+    elif "restart" in tag:
+         import keyboard
+         say("ok sir")
+         comm = Listen()
+         keyboard.press('0')
+    elif "skip" in tag:
+         import keyboard
+         say("ok sir")
+         comm = Listen()
+         keyboard.press('l')
+    elif "back" in tag:
+         import keyboard
+         say("ok sir")
+         comm = Listen()
+         keyboard.press('j')
+
+
 
 
 

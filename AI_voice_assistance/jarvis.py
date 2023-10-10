@@ -50,7 +50,7 @@ def main():
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted]
 
-    if prob.item() > 0.75:
+    if prob.item() > 0.8:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 reply = random.choice(intent['responses'])
@@ -60,8 +60,10 @@ def main():
                     NonInputExecution(reply)
                 elif "day" in reply:
                     NonInputExecution(reply)
+
+
                 elif "wikipedia" in reply:
-                    InputExecution(reply,result)
+                    InputExecution(reply,result)  
                 elif "meaning" in reply:
                     InputExecution(reply,result)
                 elif "google" in reply:
@@ -71,6 +73,18 @@ def main():
                 elif "any" in reply:
                     InputExecution(reply,result)
                 elif "screenshot" in reply:
+                    InputExecution(reply,result)
+                elif "stop" in reply:
+                    InputExecution(reply,result)
+                elif "play" in reply:
+                    InputExecution(reply,result)
+                elif "full screen" in reply:
+                    InputExecution(reply,result)
+                elif "skip" in reply:
+                    InputExecution(reply,result)
+                elif "back" in reply:
+                    InputExecution(reply,result)
+                elif "restart" in reply:
                     InputExecution(reply,result)
                 else:
                      say(reply)
